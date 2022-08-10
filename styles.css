@@ -1,0 +1,28 @@
+:root{
+    --primary: #31679B;
+    --secundary: #14A5A1;
+    --secundary-2: #9BD8D7;    
+}
+
+ion-tab-bar.mainmenu-tabs {
+    /* Selected tab icon */
+    --core-bottom-tabs-color-selected: var(--secundary);
+}
+
+core-progress-bar {
+    --core-progressbar-height: 4px;
+    --core-progressbar-color: var(--primary);
+    --core-progressbar-background: var(--secundary-2)
+}
+
+ion-chip.ion-color{
+    background: var(--secundary-2);
+}
+
+core-format-text {
+    color: var(--primary);
+}
+
+ion-label > p {
+    color: black;
+}
